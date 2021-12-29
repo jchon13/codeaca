@@ -1,0 +1,20 @@
+/* Order of specificty class --> id */
+
+.headings{
+    text-align: center;
+    background-color: burlywood;
+}
+
+table {
+    border: 2px solid darkorchid;
+    width: 650px;
+    margin: 0 auto;
+  }
+  
+  thead {
+    background-color: plum;
+  }
+  
+  td {
+    border-top: 1px solid darkorchid;
+  }
