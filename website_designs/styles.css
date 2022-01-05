@@ -1,0 +1,54 @@
+body{
+    font-family: 'Raleway';
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    top: -1px;
+    left: -10px;
+}
+
+nav li{
+    display: inline-block;
+    width: 80px;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    top: 30px;
+    left: -10px;
+    background-image: url("https://content.codecademy.com/projects/broadway/bg.jpg");
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+}
+
+footer{
+    position:relative;
+    top: 80px;
+}
+
+.button{
+        background-color: #333;
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 1.3px;
+        padding: 16px 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+}
+
+.headings{
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    margin: 100px;
+}
