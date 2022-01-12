@@ -1,0 +1,130 @@
+html, body{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 69px;
+    display: block;
+    top: 0px;
+    border-bottom: 1px solid seashell;
+}
+
+.logo{
+    height: 50px;
+    padding: 10px 10px;
+    float: left;
+}
+
+header nav{
+    float:right;
+    height: 100%;
+    margin: 0 auto;
+}
+
+nav li{
+    text-decoration: underline;
+    display: inline-block;
+    width: 140px;
+    text-align: center;
+}
+
+.image_sec{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    height: 700px;
+    max-width: 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    margin: 40px auto;
+}
+
+.titler{
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.month_tea{
+    margin: auto;
+    height: auto;
+    width: 1000px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.month_tea img{
+    height: 200px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.disp{
+    display:inline-block;
+    padding: 10px;
+}
+
+.image_third{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_third h3{
+    text-align: center;
+    width: 100%;
+    margin: 40px auto;
+}
+
+.cols{
+    width: 300px;
+    margin: 15px 40px;
+    background-color: black;
+    opacity: 0.6;
+    height: 300px;
+}
+
+.cols h3{
+    line-height: 200%;
+}
+
+.contact{
+    display: block;
+    height: 200px;
+    width: auto;
+    margin:auto;
+
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact h3{
+    margin: auto;
+}
+
+.contact h5{
+    margin: auto;
+    flex-direction: row;
+}
